@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<p>BFDjango TODO</p>
+<button class="btn1">Add Task</button>
+<hr>
+{% if is_not_compl %}
+    Tasks in "List 1"
+{% else  %}
+    Completed tasks in "List 1"
+{% endif %}
+</hr>
+<table>
+<tr>
+    <th>Task</th>
+    <th>Created</th>
+    <th>Due on</th>
+    <th>Owner</th>
+    <th>Mark</th>
+  </tr>
+</table>
+{% block body %}
+{% endblock %}
+<button class="btn2">
+    {% if is_not_compl %}
+        View completed tasks
+    {% else %}
+        View incomplete tasks
+    {% endif %}
+</button>
+<button class="btn3">Delete this list</button>
+
+
+</body>
+</html>

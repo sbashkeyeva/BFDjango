@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<table>
+    {% for t in tasks %}
+    <tr>
+        <td>{{t.Task}}</td>
+        <td>{{t.Created}}</td>
+        <td>{{t.Due}}</td>
+        <td>{{t.Owner}}</td>
+        <td>{{t.Mark}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}
