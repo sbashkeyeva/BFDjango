@@ -1,16 +1,19 @@
 {% extends 'base.html' %}
 {% block body %}
 
-<table>
-    {% for t in tasks %}
-    <tr>
-        <td>{{t.Name}}</td>
-        <td>{{t.Created}}</td>
-        <td>{{t.Dueon}}</td>
-        <td>{{t.Owner}}</td>
-        <td><button>{{t.Mark}}</button></td>
-    </tr>
-    {% endfor %}
-</table>
+<tbody>
+{% for t in tasks %}
 
+    <tr>
+
+
+      <td>{{t.Name}}</td>
+      <td>{{t.Created}}</td>
+      <td>{{t.Dueon}}</td>
+        <td>{{t.Owner}}</td>
+        <td><button type="button" class="btn btn-info">{{t.Mark}}</button></td>
+
+    </tr>
+{% endfor %}
+  </tbody>
 {% endblock %}

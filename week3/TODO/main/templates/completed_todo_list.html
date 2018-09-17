@@ -1,17 +1,15 @@
 {% extends 'base.html' %}
 {% block body %}
-<table>
-
+<tbody>
     <tr>
         {% for t in keys %}
-
         <td>{{t.Name}}</td>
-        <td>{{t.Created}}</td>
-        <td>{{t.Dueon}}</td>
-        <td>{{t.Owner}}</td>
-        <td><button>{{t.Mark}}</button></td>
+      <td>{{t.Created}}</td>
+      <td>{{t.Dueon}}</td>
+      <td>{{t.Owner}}</td>
+        <td><button type="button" class="btn btn-info">{{t.Mark}}</button></td>
         {% endfor %}
     </tr>
+  </tbody>
 
-</table>
 {% endblock %}
