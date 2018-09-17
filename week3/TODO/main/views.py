@@ -7,7 +7,7 @@ def listed(request):
     tasks=[{
         'Name':'Task{}'.format(i),
         'Created': datetime.today().strftime("%d/%m/%y"),
-        'Due on':(datetime.today()+timedelta(days=2)).strftime("%d/%m/%y"),
+        'Dueon':(datetime.today()+timedelta(days=2)).strftime("%d/%m/%y"),
         'Owner': 'admin',
         'Mark': 'Done',
         'is_not_compl':True
@@ -18,7 +18,7 @@ def completed(request):
     texts =[{
         'Name': 'Task 0',
         'Created': datetime.today().strftime("%d/%m/%y"),
-        'Due on': (datetime.today()+timedelta(days=2)).strftime("%d/%m/%y"),
+        'Dueon': (datetime.today()+timedelta(days=2)).strftime("%d/%m/%y"),
         'Owner':'admin',
         'Mark':'Not Done',
         'is_not_compl':False
