@@ -16,7 +16,7 @@ def listed(request):
     return render(request,'todo_list.html',context)
 def completed(request):
     texts =[{
-        'Name': 'Task{}'.format(1),
+        'Name': 'Task 0',
         'Created': datetime.today().strftime("%d/%m/%y"),
         'Due on': (datetime.today()+timedelta(days=2)).strftime("%d/%m/%y"),
         'Owner':'admin',
