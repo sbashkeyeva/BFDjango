@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 def listed(request):
     tasks=[{
-        'Name':'Task{}'.format(i),
+        'Name':'Task {}'.format(i),
         'Created': datetime.today().strftime("%d/%m/%y"),
         'Dueon':(datetime.today()+timedelta(days=2)).strftime("%d/%m/%y"),
         'Owner': 'admin',

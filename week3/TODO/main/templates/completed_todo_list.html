@@ -3,13 +3,15 @@
 <tbody>
     <tr>
         {% for t in keys %}
-        <td>{{t.Name}}</td>
+
+        <td><a href="#" class="text-primary">{{t.Name}}</a></td>
       <td>{{t.Created}}</td>
       <td>{{t.Dueon}}</td>
       <td>{{t.Owner}}</td>
         <td><button type="button" class="btn btn-info">{{t.Mark}}</button></td>
-        {% endfor %}
+
     </tr>
+{% endfor %}
   </tbody>
 
 {% endblock %}
