@@ -13,5 +13,5 @@ class Todo(models.Model):
     mark=models.BooleanField(default=False)
 
     def __str__(self):
-        return "{1},{2},{3},{4},{5}".format(self.text,self.created,self.dueon,self.owner,self.mark)
+        return "{},{},{},{},{}".format(self.text,self.created,self.dueon,self.owner,self.mark)
 
