@@ -1,5 +1,20 @@
 {% extends 'base.html' %}
 {% block body %}
+<hr>
+          <h1>Completed tasks in "List 1"</h1>
+<hr>
+<table class="table">
+  <thead>
+    <tr>
+      <th >Task</th>
+      <th >Created</th>
+      <th >Due on</th>
+      <th >Owner</th>
+        <th >Mark</th>
+
+    </tr>
+  </thead>
+
 <tbody>
     <tr>
         {% for t in keys %}
@@ -19,5 +34,12 @@
     </tr>
 {% endfor %}
   </tbody>
+</table>
+<hr>
+<button type="button" class="btn btn-warning">
+
+        View completed tasks
+
+</button>
 
 {% endblock %}

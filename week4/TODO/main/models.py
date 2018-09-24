@@ -7,11 +7,11 @@ class Human(models.Model):
 
 class Todo(models.Model):
     text=models.CharField(max_length =100)
-    created=models.DateTimeField()
-    dueon=models.DateTimeField()
+    created=models.DateField()
+    dueon=models.DateField()
     owner=models.ForeignKey(Human,on_delete=models.CASCADE)
     mark=models.BooleanField(default=False)
 
     def __str__(self):
-        return "{},{},{},{},{}".format(self.text,self.created,self.dueon,self.owner,self.mark)
+        return "{},{},{},{}".format(self.text,self.created,self.dueon,self.owner)
 

@@ -12,38 +12,11 @@
   <a class="navbar-brand" href="#">BFDjango TODO</a>
 </nav>
 <button type="button" class="btn btn-primary">Add Task</button>
-<hr>
-     {% if Isnotcompl %}
-          <h1>Tasks in "List 1"</h1>
-     {% else  %}
-          <h1>Completed tasks in "List 1"</h1>
-     {% endif %}
-<hr>
-<table class="table">
-  <thead>
-    <tr>
-      <th >Task</th>
-      <th >Created</th>
-      <th >Due on</th>
-      <th >Owner</th>
-        <th >Mark</th>
-
-    </tr>
-  </thead>
 
 {% block body %}
 {% endblock %}
 
-</table>
 
-<hr>
-<button type="button" class="btn btn-warning">
-    {% if Isnotcompl %}
-        View completed tasks
-    {% else %}
-        View incomplete tasks
-    {% endif %}
-</button>
 <button type="button" class="btn btn-danger">Delete this list</button>
 
 </body>
