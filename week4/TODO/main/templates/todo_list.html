@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+
+<tbody>
+{% for t in todo_list %}
+
+    <tr>
+
+      <td><a href="#" class="text-primary">{{t.text}}</a></td>
+      <td>{{t.created}}</td>
+      <td>{{t.dueon}}</td>
+        <td>{{t.owner}}</td>
+        <td><button type="button" class="btn btn-info">
+            {% if t.mark %}
+            Done
+            {% else %}
+            Not Done
+            {% endif %}
+            </button></td>
+
+    </tr>
+{% endfor %}
+  </tbody>
+
+{% endblock %}

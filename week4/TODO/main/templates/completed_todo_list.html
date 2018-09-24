@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block body %}
+<tbody>
+    <tr>
+        {% for t in keys %}
+
+        <td><a href="#" class="text-primary">{{t.Name}}</a></td>
+      <td>{{t.Created}}</td>
+      <td>{{t.Dueon}}</td>
+      <td>{{t.Owner}}</td>
+        <td><button type="button" class="btn btn-info">
+            {% if t.Mark %}
+            Done
+            {% else %}
+            Not Done
+            {%endif%}
+        </button></td>
+
+    </tr>
+{% endfor %}
+  </tbody>
+
+{% endblock %}

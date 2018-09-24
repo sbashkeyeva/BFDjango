@@ -10,7 +10,7 @@ def listed(request):
         'Dueon':(datetime.today()+timedelta(days=2)).strftime("%d/%m/%y"),
         'Owner': 'admin',
         'Mark': 'Done',
-        'is_not_compl':True
+        'Isnotcompl': True
     } for i in range (1,5)]
     context={'tasks': tasks}
     return render(request,'todo_list.html',context)
@@ -21,7 +21,7 @@ def completed(request):
         'Dueon': (datetime.today()+timedelta(days=2)).strftime("%d/%m/%y"),
         'Owner':'admin',
         'Mark':'Not Done',
-        'is_not_compl':False
+        'Isnotcompl': False
     }]
     context = {'keys': texts}
     return render(request,'completed_todo_list.html',context)
