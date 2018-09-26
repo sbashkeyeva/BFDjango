@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils.datetime_safe import time
 
 
 class Human(models.Model):

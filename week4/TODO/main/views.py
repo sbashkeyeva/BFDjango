@@ -11,7 +11,7 @@ def listed(request):
     return render(request,'todo_list.html',context)
 
 def completed(request):
-    todo_list = Todo.objects.order_by('id')
+    completed_todo_list = Todo.objects.filter(mark=True)
 
-    context = {'keys': todo_list}
+    context = {'keys': completed_todo_list}
     return render(request,'completed_todo_list.html',context)

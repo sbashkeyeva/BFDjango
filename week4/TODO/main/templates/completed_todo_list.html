@@ -19,16 +19,14 @@
     <tr>
         {% for t in keys %}
 
-        <td><a href="#" class="text-primary">{{t.Name}}</a></td>
-      <td>{{t.Created}}</td>
-      <td>{{t.Dueon}}</td>
-      <td>{{t.Owner}}</td>
+        <td><a href="#" class="text-primary">{{t.text}}</a></td>
+      <td>{{t.created}}</td>
+      <td>{{t.dueon}}</td>
+      <td>{{t.owner}}</td>
         <td><button type="button" class="btn btn-info">
-            {% if t.Mark %}
+
             Done
-            {% else %}
-            Not Done
-            {%endif%}
+
         </button></td>
 
     </tr>
