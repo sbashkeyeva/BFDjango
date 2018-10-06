@@ -51,6 +51,7 @@
 
 </a>
 <form action="{% url 'jai' %}" method = "POST">
+{% csrf_token %}
 <button type="submit" class="btn btn-danger" >Delete this list</button>
 </form>
 {% endblock %}

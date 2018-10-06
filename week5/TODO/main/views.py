@@ -9,6 +9,7 @@ from django.http import HttpResponse
 def listed(request):
     if request.method == 'POST':
         Todo.objects.all().delete()
+        return redirect('jai')
     else:
         todo_list=Todo.objects.order_by('id')
 
