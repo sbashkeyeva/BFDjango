@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="289032ff-39d4-4c9c-961a-b9c3284e2b8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week4/TODO/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/TODO/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week4/TODO/main/templates/completed_todo_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/TODO/main/templates/completed_todo_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week4/TODO/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/TODO/main/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +14,7 @@
     <session id="-1133319220">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -263,7 +259,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

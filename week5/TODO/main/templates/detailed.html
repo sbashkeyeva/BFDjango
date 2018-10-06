@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block body %}
+<form action="{% url 'detailed' task.id %}" method="POST">
+    {% csrf_token %}
+ <div>ID: {{task.id}}</div>
+
+ <div>Name: {{task.text}}</div>
+
+ <div>Created: {{task.created}}</div>
+
+ <div>Due on: {{task.dueon}}</div>
+
+
+ <div>Owner on: {{task.owner}}</div>
+
+ <div>Mark: {{task.mark}}</div>
+
+
+    <button type="submit" class="btn btn-danger" >Delete task</button>
+
+</form>
+{% endblock %}
