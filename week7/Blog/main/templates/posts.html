@@ -1,16 +1,41 @@
-{% extends 'base.html'%}
+{% extends 'base.html' %}
+
 {% block body %}
-<h1>
-    Your notes
-</h1>
-<form></form>
-<a href="{% url 'add' %}" class="btn btn-info">Create</a>
-<br>
-{% for p in posts %}
-<h3><a href="{% url 'detailed' posts.id %}">{{p.title}}</a></h3>
-<p>Author: {{p.author}}</p>
-<p>{{p.content}}</p>
-<p>Published: {{p.date}}</p>
-<a href="{% url 'delete_all' %}" class="btn btn-danger">Delete</a>
-{% endfor %}
+    <h1>Your Notes </h1>
+
+    <a href = "{%url 'add_post' %}" class = "btn btn-success">Create</a>
+    <a href = "{%url 'delete_all' %}" class = "btn btn-danger">Delete all</a>
+    <hr/>
+    {% for post in post_list %}
+        <h4> <a href="{%url 'post_detailed' post.id%}" style="color:#25ba1a" > {{post.title}}</a></h4>
+        <p > Author : {{post.author}}</p>
+        <p>"{{post.content}}"</p>
+        <p>Edited :{{post.date}}</p>
+        <hr/>
+
+        <a href = "{% url 'update_post' post.id%}" class = "btn btn-success">Update</a>
+        <a href = "{% url 'delete_post' post.id%}" class = "btn btn-danger">Delete</a>
+        <br>
+        <br>
+
+        {% for comment in post.comments.all%}
+             <div class="comment">
+                <div class="date">{{ comment.date }}</div>
+                <strong>Name: {{ comment.name }}</strong> <br>
+                <strong> Email: {{comment.email}}</strong>
+                <p>{{ comment.comment |linebreaks }}</p>
+            </div>
+        {% empty %}
+            <p>Add your comment in order to get more followers :)</p>
+        {% endfor %}
+        <button class="btn btn-info" onclick = "add_comment()" >Add Comment</button>
+        <script>
+        function create_comment()
+        {
+            location.href = "{% url  'add_comment' post.id %}";
+        }
+        </script>
+
+    {%endfor %}
+
 {% endblock %}

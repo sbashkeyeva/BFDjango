@@ -1,49 +1,77 @@
-from django.shortcuts import render, redirect
-from .models import Post,User, Comment
-from django.http import Http404
-from .forms import  PostForm
+from django.shortcuts import render, redirect, get_object_or_404
+from django.http import HttpResponse, Http404
 
+import datetime
+from datetime import timedelta
+from .models import Comment, Posts
+from .forms import PostForm, CommentForm
+
+def home(request):
+    return render(request,'home.html')
 def posts(request):
-    posts=Post.objects.all()
-    context={
-        'posts': posts
+    post_list = Posts.objects.all()
+    context = {
+        'post_list': post_list
     }
     return render(request, 'posts.html', context)
 
-def comments(request):
-    comments=Comment.objects.all()
-    context={
-        'comments': comments
-    }
 
-    return render(request,'commments.html', context)
-def home(request):
-    return render(request,'home.html')
-def add(request):
-    if request.method=='POST':
-        form=PostForm(request.POST)
+def post_detailed(request, id):
+    try:
+        post = Posts.objects.get(pk=id)
+    except Posts.DoesNotExist:
+        raise Http404("Post was not found")
+    context = {
+        'posts': post
+    }
+    return render(request, 'post_detailed.html', context)
+
+
+def add_post(request):
+    if request.method == "POST":
+        form = PostForm(request.POST)
         if form.is_valid():
             form.save()
             return redirect('posts')
     else:
-        form=PostForm
-
-    context={
-        'form' : form
+        form = PostForm
+    context ={
+        'form': form
     }
+    return render(request, 'add_post.html', context)
 
-    return render(request,'add_posts.html',context)
-def detailed(request, post_id):
-    try:
-        Post.objects.get(id=post_id)
-    except Post.DoesNotExist:
-        raise Http404('Not Found')
-    context={
-        'posts':posts
+def update_post(request, id):
+    updated_post = get_object_or_404(Posts, pk=id)
+    form = PostForm(request.POST or None, instance=updated_post)
+    if form.is_valid():
+        form.save()
+        return redirect(posts)
+    return render(request, 'add_post.html', {'form': form})
+
+def delete_post(request, id):
+    deleted_post = Posts.objects.get(pk=id)
+    deleted_post.delete()
+    return redirect(posts)
+
+def delete_all_posts(request):
+    all_posts = Posts.objects.all()
+    all_posts.delete()
+    return redirect(posts)
+
+def add_comment(request, id):
+    post = get_object_or_404(Posts, pk=id)
+    if request.method == "POST":
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            comment = form.save()
+            comment.post = post
+            comment.save()
+            return redirect('posts')
+    else:
+        form = CommentForm
+    context = {
+        'form': form
     }
+    return render(request, 'add_comment.html', context)
 
-    return(request,'detailed.html', context)
-def delete_all(request):
-    posts=Post.objects.all()
-    posts.delete()
-    return redirect('posts')
+
