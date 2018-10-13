@@ -1,0 +1,16 @@
+{% extends 'base.html'%}
+{% block body %}
+<h1>
+    Your notes
+</h1>
+<form></form>
+<a href="{% url 'add' %}" class="btn btn-info">Create</a>
+<br>
+{% for p in posts %}
+<h3><a href="{% url 'detailed' posts.id %}">{{p.title}}</a></h3>
+<p>Author: {{p.author}}</p>
+<p>{{p.content}}</p>
+<p>Published: {{p.date}}</p>
+<a href="{% url 'delete_all' %}" class="btn btn-danger">Delete</a>
+{% endfor %}
+{% endblock %}
