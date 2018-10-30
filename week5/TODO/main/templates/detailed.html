@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block body %}
-<form action="{% url 'detailed' task.id %}" method="POST">
+<form action="{% url 'detailed' task.id %}" method="POST"
     {% csrf_token %}
  <div>ID: {{task.id}}</div>
 
