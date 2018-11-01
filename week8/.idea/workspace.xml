@@ -2,64 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add5743f-ccd5-4e16-8520-cf9f877a17e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/week8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/RMenu/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/RMenu/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/RMenu/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/auth_/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/auth_/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/auth_/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/auth_/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/auth_/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/auth_/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/auth_/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/auth_/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/auth_/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/main/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/main/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/main/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/main/migrations/0002_auto_20181022_1311.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/main/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/main/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/main/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/main/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/main/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/main/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/main/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMenu/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week/RMenu/main/urls.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMenu/main/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMenu/main/templates/add_rest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMenu/main/templates/detailed_rest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMenu/main/templates/rests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week5/TODO/main/static/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week5/TODO/main/static/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week5/TODO/main/static/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week5/TODO/main/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week5/TODO/main/static/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week5/TODO/main/static/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week5/TODO/main/static/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week5/TODO/main/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week5/TODO/main/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week5/TODO/main/static/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week5/TODO/main/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week5/TODO/main/static/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week5/TODO/main/static/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week5/TODO/main/templates/detailed.html" beforeDir="false" afterPath="$PROJECT_DIR$/../week5/TODO/main/templates/detailed.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week7/Blog/main/templates/add_commment.html" beforeDir="false" afterPath="$PROJECT_DIR$/../week7/Blog/main/templates/add_commment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midterm/Task1/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/RMenu/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midterm/Task1/templates/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midterm/Task1/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midterm/Task1/templates/list_res.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midterm/Task1/templates/rests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midterm/Task1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/auth_/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midterm/Task2/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midterm/Task2/templates/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midterm/Task2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/auth_/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMenu/auth_/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/auth_/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMenu/auth_/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/auth_/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMenu/auth_/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/auth_/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMenu/auth_/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/auth_/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMenu/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMenu/main/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/main/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMenu/main/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/main/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMenu/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMenu/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/main/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,35 +30,36 @@
     <session id="-2115886701">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="4" />
-          <entry key="py" value="9" />
+          <entry key="html" value="8" />
+          <entry key="py" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="4" />
-          <entry key="Python" value="9" />
+          <entry key="HTML" value="8" />
+          <entry key="Python" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1700" />
-          <entry key="py" value="3959" />
+          <entry key="html" value="3732" />
+          <entry key="py" value="6224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1700" />
-          <entry key="Python" value="3959" />
+          <entry key="HTML" value="3732" />
+          <entry key="Python" value="6224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -108,10 +68,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RMenu/RMenu/settings.py">
+        <entry file="file://$PROJECT_DIR$/RMenu/main/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+            <state relative-caret-position="290">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RMenu/main/templates/rests.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RMenu/main/templates/detailed_rest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RMenu/main/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="478">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+                <marker date="1541064582000" expanded="true" signature="208:249" ph="..." />
+                <marker date="1541064582000" expanded="true" signature="492:497" ph="..." />
+                <marker date="1541064582000" expanded="true" signature="955:960" ph="..." />
+                <marker date="1541064582000" expanded="true" signature="1072:1104" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RMenu/main/templates/add_rest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -119,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RMenu/auth_/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="360">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -129,60 +132,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RMenu/auth_/templates/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RMenu/auth_/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-                <marker date="1540709897000" expanded="true" signature="217:222" ph="..." />
-                <marker date="1540709897000" expanded="true" signature="1216:1389" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RMenu/main/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1540192283000" expanded="true" signature="434:439" ph="..." />
-                <marker date="1540192283000" expanded="true" signature="834:839" ph="..." />
-                <marker date="1540192283000" expanded="true" signature="1053:1058" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RMenu/auth_/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RMenu/auth_/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -190,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RMenu/main/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -200,19 +153,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RMenu/main/templates/base.html">
+        <entry file="file://$PROJECT_DIR$/RMenu/main/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+                <marker date="1540961108000" expanded="true" signature="96:101" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RMenu/main/templates/home.html">
+        <entry file="file://$PROJECT_DIR$/RMenu/main/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="363">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <marker date="1540888516000" expanded="true" signature="445:450" ph="..." />
+                <marker date="1540888516000" expanded="true" signature="854:859" ph="..." />
+                <marker date="1540888516000" expanded="true" signature="1080:1085" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -222,8 +185,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -233,22 +196,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/RMenu/main/urls.py" />
-        <option value="$PROJECT_DIR$/RMenu/main/models.py" />
-        <option value="$PROJECT_DIR$/RMenu/main/views.py" />
-        <option value="$PROJECT_DIR$/RMenu/main/templates/home.html" />
         <option value="$PROJECT_DIR$/RMenu/RMenu/settings.py" />
         <option value="$PROJECT_DIR$/RMenu/RMenu/urls.py" />
-        <option value="$PROJECT_DIR$/RMenu/auth_/templates/login.html" />
         <option value="$PROJECT_DIR$/RMenu/auth_/urls.py" />
-        <option value="$PROJECT_DIR$/RMenu/main/templates/base.html" />
-        <option value="$PROJECT_DIR$/RMenu/auth_/forms.py" />
-        <option value="$PROJECT_DIR$/RMenu/auth_/views.py" />
         <option value="$PROJECT_DIR$/RMenu/auth_/templates/register.html" />
+        <option value="$PROJECT_DIR$/RMenu/main/models.py" />
+        <option value="$PROJECT_DIR$/RMenu/auth_/views.py" />
+        <option value="$PROJECT_DIR$/RMenu/auth_/forms.py" />
+        <option value="$PROJECT_DIR$/RMenu/main/templates/home.html" />
+        <option value="$PROJECT_DIR$/RMenu/main/templates/base.html" />
+        <option value="$PROJECT_DIR$/RMenu/main/forms.py" />
+        <option value="$PROJECT_DIR$/RMenu/main/views.py" />
+        <option value="$PROJECT_DIR$/RMenu/main/urls.py" />
+        <option value="$PROJECT_DIR$/RMenu/main/templates/rests.html" />
+        <option value="$PROJECT_DIR$/RMenu/main/templates/add_rest.html" />
+        <option value="$PROJECT_DIR$/RMenu/auth_/templates/login.html" />
+        <option value="$PROJECT_DIR$/RMenu/main/templates/detailed_rest.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -258,6 +225,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,7 +274,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,13 +333,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RMenu/main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RMenu/RMenu/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -380,46 +340,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RMenu/auth_/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RMenu/auth_/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="105">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RMenu/main/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RMenu/main/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RMenu/main/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/RMenu/auth_/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/RMenu/RMenu/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -428,45 +357,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/RMenu/auth_/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMenu/auth_/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMenu/auth_/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMenu/main/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMenu/main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1540888516000" expanded="true" signature="445:450" ph="..." />
+            <marker date="1540888516000" expanded="true" signature="854:859" ph="..." />
+            <marker date="1540888516000" expanded="true" signature="1080:1085" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMenu/main/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMenu/main/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1540961108000" expanded="true" signature="96:101" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMenu/main/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMenu/main/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMenu/main/templates/add_rest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RMenu/auth_/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="360">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RMenu/auth_/templates/register.html">
+    <entry file="file://$PROJECT_DIR$/RMenu/auth_/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+        <state relative-caret-position="225">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RMenu/auth_/forms.py">
+    <entry file="file://$PROJECT_DIR$/RMenu/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="478">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
-            <element signature="e#0#54#0" expanded="true" />
-            <marker date="1540709897000" expanded="true" signature="217:222" ph="..." />
-            <marker date="1540709897000" expanded="true" signature="1216:1389" ph="..." />
+            <element signature="e#0#64#0" expanded="true" />
+            <marker date="1541064582000" expanded="true" signature="208:249" ph="..." />
+            <marker date="1541064582000" expanded="true" signature="492:497" ph="..." />
+            <marker date="1541064582000" expanded="true" signature="955:960" ph="..." />
+            <marker date="1541064582000" expanded="true" signature="1072:1104" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RMenu/main/models.py">
+    <entry file="file://$PROJECT_DIR$/RMenu/main/templates/rests.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1540192283000" expanded="true" signature="434:439" ph="..." />
-            <marker date="1540192283000" expanded="true" signature="834:839" ph="..." />
-            <marker date="1540192283000" expanded="true" signature="1053:1058" ph="..." />
-          </folding>
+        <state relative-caret-position="560">
+          <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMenu/main/templates/detailed_rest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
         </state>
       </provider>
     </entry>

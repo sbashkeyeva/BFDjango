@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block body %}
+<h3>Info about {{rest.name}}</h3>
+<!--<ul>-->
+    <!--<li>-->
+        <!--Name: {{rest.name}}-->
+    <!--</li>-->
+    <!--<li>-->
+        <!--Number: {{rest.number}}-->
+    <!--</li>-->
+    <!--<li>-->
+        <!--Located: {{rest.city}}-->
+    <!--</li>-->
+    <!--<li>-->
+        <!--Telephone: {{rest.telephone}}-->
+    <!--</li>-->
+<!--</ul>-->
+
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Number</th>
+        <th>Telephone</th>
+        <th>City</th>
+        <th>Dishes</th>
+    </tr>
+    <tbody>
+
+    <tr>
+        <td>{{rest.name}}</td>
+        <td>{{rest.number}}</td>
+        <td>{{rest.telephone}}</td>
+        <td>{{rest.city}}</td>
+
+    </tr>
+    </tbody>
+</table>
+
+{% endblock %}

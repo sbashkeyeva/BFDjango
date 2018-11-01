@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block body %}
+<h2>Add Restaurant page</h2>
+<form method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="OK" class="btn btn-primary">
+</form>
+{% endblock %}

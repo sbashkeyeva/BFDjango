@@ -15,10 +15,10 @@
         </div>
         <ul class="nav navbar-nav">
             <li>
-                <a href="">Restaurant</a>
+                <a href="{% url 'rests' %}">Restaurant</a>
             </li>
         </ul>
-        <ul class ="nav navbar-nav navbar-right" >
+        <ul class="nav navbar-nav navbar-right">
             {% if user.is_authenticated %}
             <li>
                 <a href="{% url 'logout' %}">Logout</a>
@@ -36,9 +36,9 @@
 </div>
 <div class="container">
 
-{% block body %}
+    {% block body %}
 
-{% endblock %}
+    {% endblock %}
 
 </div>
 </body>
