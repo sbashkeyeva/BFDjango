@@ -1,6 +1,9 @@
 {% extends 'base.html' %}
 {% block body %}
 <h3>Info about {{rest.name}}</h3>
+<h3>{{rest.dishes.count}}</h3>
+<a href="#" class="btn btn-primary">Add Dish</a>
+<br><br>
 <!--<ul>-->
     <!--<li>-->
         <!--Name: {{rest.name}}-->
@@ -15,7 +18,14 @@
         <!--Telephone: {{rest.telephone}}-->
     <!--</li>-->
 <!--</ul>-->
-
+<ul class="list-group">
+        {% for dish in dishes %}
+            <li class="list-group-item">
+                <h5>ID: {{ dish.id }}</h5>
+                <p>Title: {{ dish.name }}</p>
+            </li>
+        {% endfor %}
+    </ul>
 
 <table class="table">
     <tr>
@@ -32,7 +42,7 @@
         <td>{{rest.number}}</td>
         <td>{{rest.telephone}}</td>
         <td>{{rest.city}}</td>
-
+        <td>{{dish.name}}</td>
     </tr>
     </tbody>
 </table>

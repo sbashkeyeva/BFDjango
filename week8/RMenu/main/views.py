@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from .models import Restaurant
+from .models import Restaurant, Dish
 from django.contrib.auth.decorators import login_required
-from .forms import RestaurantForm
+from .forms import RestaurantForm, DishForm
 
 
 def home(request):
@@ -16,7 +16,9 @@ def rests(request):
 
 def detailed_rest(request, id):
     rest = Restaurant.objects.get(pk=id)
-    context = {'rest': rest}
+    context = {'rest': rest,
+               'dishes': rest.dishes.all()
+               }
     return render(request, 'detailed_rest.html', context)
 
 
@@ -52,3 +54,18 @@ def update_rest(request, id):
         form.save()
         return redirect('rests')
     return render(request, 'add_rest.html', {'form': form})
+
+
+# def add_dish(request):
+#     rest=get_object_or_404(Restaurant, pk=id)
+#     if request.method == 'POST':
+#         form = DishForm(request.POST)
+#         if form.is_valid():
+#             dish=form.save(commit=False)
+#             dish.rest=rest
+#             dish.save()
+#             return redirect('detailed_rest')
+#     else:
+#         form = DishForm
+#     context = {'form': form}
+#     return render(request, 'add_dish.html', context)

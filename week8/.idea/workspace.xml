@@ -2,10 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add5743f-ccd5-4e16-8520-cf9f877a17e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RMenu/main/templates/add_dish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week9/TODO/main/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week9/TODO/main/templates/add_task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week9/TODO/main/templates/completed_todo_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week9/TODO/main/templates/detailed_task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week9/TODO/main/templates/todo_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week9/TODO/main/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMenu/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/main/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMenu/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMenu/main/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/main/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMenu/main/templates/detailed_rest.html" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/main/templates/detailed_rest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMenu/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMenu/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/RMenu/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week9/TODO/TODO/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../week9/TODO/TODO/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week9/TODO/TODO/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../week9/TODO/TODO/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week9/TODO/auth_/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../week9/TODO/auth_/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week9/TODO/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../week9/TODO/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week9/TODO/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../week9/TODO/main/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,37 +35,39 @@
     <session id="-2115886701">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="8" />
-          <entry key="py" value="20" />
+          <entry key="html" value="10" />
+          <entry key="py" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="8" />
-          <entry key="Python" value="20" />
+          <entry key="HTML" value="10" />
+          <entry key="Python" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="3768" />
-          <entry key="py" value="6224" />
+          <entry key="html" value="4274" />
+          <entry key="py" value="6941" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3768" />
-          <entry key="Python" value="6224" />
+          <entry key="HTML" value="4274" />
+          <entry key="Python" value="6941" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -58,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RMenu/main/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="75">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -67,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RMenu/main/templates/rests.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
+            <state relative-caret-position="593">
               <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
             </state>
           </provider>
@@ -76,22 +96,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RMenu/main/templates/detailed_rest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="548">
+              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RMenu/RMenu/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RMenu/main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="57">
+              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
-                <marker date="1541064582000" expanded="true" signature="208:249" ph="..." />
-                <marker date="1541064582000" expanded="true" signature="492:497" ph="..." />
-                <marker date="1541064582000" expanded="true" signature="955:960" ph="..." />
+                <marker date="1541278488000" expanded="true" signature="224:265" ph="..." />
+                <marker date="1541278488000" expanded="true" signature="568:573" ph="..." />
+                <marker date="1541278488000" expanded="true" signature="1031:1036" ph="..." />
               </folding>
             </state>
           </provider>
@@ -107,13 +136,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RMenu/auth_/views.py">
+        <entry file="file://$PROJECT_DIR$/RMenu/main/templates/add_dish.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -127,11 +153,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RMenu/main/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -142,26 +168,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RMenu/main/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="180">
+              <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1540961108000" expanded="true" signature="96:101" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RMenu/main/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1540888516000" expanded="true" signature="445:450" ph="..." />
-                <marker date="1540888516000" expanded="true" signature="854:859" ph="..." />
-                <marker date="1540888516000" expanded="true" signature="1080:1085" ph="..." />
+                <marker date="1541151630000" expanded="true" signature="102:107" ph="..." />
+                <marker date="1541151630000" expanded="true" signature="245:250" ph="..." />
               </folding>
             </state>
           </provider>
@@ -187,18 +199,19 @@
         <option value="$PROJECT_DIR$/RMenu/RMenu/urls.py" />
         <option value="$PROJECT_DIR$/RMenu/auth_/urls.py" />
         <option value="$PROJECT_DIR$/RMenu/auth_/templates/register.html" />
-        <option value="$PROJECT_DIR$/RMenu/main/models.py" />
         <option value="$PROJECT_DIR$/RMenu/auth_/views.py" />
         <option value="$PROJECT_DIR$/RMenu/auth_/forms.py" />
         <option value="$PROJECT_DIR$/RMenu/main/templates/home.html" />
-        <option value="$PROJECT_DIR$/RMenu/main/templates/base.html" />
-        <option value="$PROJECT_DIR$/RMenu/main/forms.py" />
-        <option value="$PROJECT_DIR$/RMenu/main/views.py" />
-        <option value="$PROJECT_DIR$/RMenu/main/urls.py" />
         <option value="$PROJECT_DIR$/RMenu/main/templates/rests.html" />
         <option value="$PROJECT_DIR$/RMenu/main/templates/add_rest.html" />
         <option value="$PROJECT_DIR$/RMenu/auth_/templates/login.html" />
+        <option value="$PROJECT_DIR$/RMenu/main/models.py" />
+        <option value="$PROJECT_DIR$/RMenu/main/forms.py" />
+        <option value="$PROJECT_DIR$/RMenu/main/templates/add_dish.html" />
+        <option value="$PROJECT_DIR$/RMenu/main/views.py" />
+        <option value="$PROJECT_DIR$/RMenu/main/urls.py" />
         <option value="$PROJECT_DIR$/RMenu/main/templates/detailed_rest.html" />
+        <option value="$PROJECT_DIR$/RMenu/main/templates/base.html" />
       </list>
     </option>
   </component>
@@ -230,13 +243,6 @@
               <item name="week8" type="462c0819:PsiDirectoryNode" />
               <item name="RMenu" type="462c0819:PsiDirectoryNode" />
               <item name="auth_" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week8" type="462c0819:PsiDirectoryNode" />
-              <item name="RMenu" type="462c0819:PsiDirectoryNode" />
-              <item name="auth_" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="week8" type="b2602c69:ProjectViewProjectNode" />
@@ -320,13 +326,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RMenu/RMenu/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RMenu/auth_/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -371,17 +370,23 @@
     <entry file="file://$PROJECT_DIR$/RMenu/main/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/RMenu/main/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/RMenu/auth_/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="300">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RMenu/main/templates/rests.html">
+    <entry file="file://$PROJECT_DIR$/RMenu/main/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+        <state relative-caret-position="345">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1541147287000" expanded="true" signature="445:450" ph="..." />
+            <marker date="1541147287000" expanded="true" signature="877:882" ph="..." />
+            <marker date="1541147287000" expanded="true" signature="1103:1108" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -392,13 +397,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RMenu/auth_/views.py">
+    <entry file="file://$PROJECT_DIR$/RMenu/main/templates/add_dish.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -409,56 +411,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RMenu/main/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RMenu/main/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="180">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1540961108000" expanded="true" signature="96:101" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RMenu/main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1540888516000" expanded="true" signature="445:450" ph="..." />
-            <marker date="1540888516000" expanded="true" signature="854:859" ph="..." />
-            <marker date="1540888516000" expanded="true" signature="1080:1085" ph="..." />
+            <marker date="1541151630000" expanded="true" signature="102:107" ph="..." />
+            <marker date="1541151630000" expanded="true" signature="245:250" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RMenu/main/templates/detailed_rest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="548">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMenu/RMenu/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMenu/main/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMenu/main/templates/rests.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RMenu/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="57">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
-            <marker date="1541064582000" expanded="true" signature="208:249" ph="..." />
-            <marker date="1541064582000" expanded="true" signature="492:497" ph="..." />
-            <marker date="1541064582000" expanded="true" signature="955:960" ph="..." />
+            <marker date="1541278488000" expanded="true" signature="224:265" ph="..." />
+            <marker date="1541278488000" expanded="true" signature="568:573" ph="..." />
+            <marker date="1541278488000" expanded="true" signature="1031:1036" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMenu/main/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
