@@ -6,3 +6,9 @@ class TodoForm(forms.ModelForm):
     class Meta:
         model = Todo
         fields = ('name', 'created', 'dueon', 'owner', 'mark')
+
+
+class UpdateTodoForm(forms.ModelForm):
+    class Meta:
+        model = Todo
+        fields = ('name', 'created', 'dueon', 'owner', 'mark')

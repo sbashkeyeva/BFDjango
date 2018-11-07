@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block body %}
 <h2>Add Dish Page</h2>
-<form method="POST">
+<form method="post">
     {% csrf_token %}
     {{form.as_p}}
     <input type="submit" value="Submit" class="btn btn-primary">

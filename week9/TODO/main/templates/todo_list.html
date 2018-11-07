@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% block body %}
 <h2>Todo list page</h2>
+<h3>{{todos.count}}</h3>
 <a href="{% url 'add_task' %}" class="btn btn-primary">Add Task</a><br><br>
 <table class="table">
     <tr>
@@ -10,6 +11,7 @@
         <th>Owner</th>
         <th>Mark</th>
         <th>Delete</th>
+        <th>Update</th>
     </tr>
     {% for todo in todos %}
     <tr>
@@ -27,7 +29,10 @@
                 {% endif %}
             </button>
         </td>
+
         <td><a href="{% url 'delete_task' todo.id %}" class="btn btn-danger">Delete</a></td>
+        <td><a href="{% url 'update_task' todo.id %}" class="btn btn-primary">Update</a></td>
+
     </tr>
     {% endfor %}
 

@@ -2,7 +2,7 @@
 {% block body %}
 <h3>Info about {{rest.name}}</h3>
 <h3>{{rest.dishes.count}}</h3>
-<a href="#" class="btn btn-primary">Add Dish</a>
+<a href="{% url 'add_dish' rest.id%}" class="btn btn-primary">Add Dish</a>
 <br><br>
 <!--<ul>-->
     <!--<li>-->
@@ -42,7 +42,7 @@
         <td>{{rest.number}}</td>
         <td>{{rest.telephone}}</td>
         <td>{{rest.city}}</td>
-        <td>{{dish.name}}</td>
+        <td>{{rest.dishes.name}}</td>
     </tr>
     </tbody>
 </table>

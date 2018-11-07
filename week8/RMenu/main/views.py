@@ -56,16 +56,17 @@ def update_rest(request, id):
     return render(request, 'add_rest.html', {'form': form})
 
 
-# def add_dish(request):
-#     rest=get_object_or_404(Restaurant, pk=id)
-#     if request.method == 'POST':
-#         form = DishForm(request.POST)
-#         if form.is_valid():
-#             dish=form.save(commit=False)
-#             dish.rest=rest
-#             dish.save()
-#             return redirect('detailed_rest')
-#     else:
-#         form = DishForm
-#     context = {'form': form}
-#     return render(request, 'add_dish.html', context)
+def add_dish(request, id):
+    rest = get_object_or_404(Restaurant, pk=id)
+    if request.method == 'POST':
+        form = DishForm(request.POST)
+        if form.is_valid():
+            dish = form.save(commit=False)
+            dish.rest = rest
+            dish.save()
+            return redirect('detailed_rest')
+    else:
+        form = DishForm
+    context = {'form': form}
+    return render(request, 'add_dish.html', context)
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div class="navbar navbar-default ">
+    <div class="container">
+        <div class="navbar-header">
+            <div class="navbar-brand">
+                <a href="{% url 'home' %}">Home</a>
+            </div>
+        </div>
+        <ul class="nav navbar-nav">
+            <li>
+                <a href="">My Posts</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            {% if user.is_authenticated %}
+            <li>
+                <a href="{% url 'logout' %}">Logout</a>
+            </li>
+            {% else %}
+            <li>
+                <a href="{% url 'login' %}">Login</a>
+            </li>
+            <li>
+                <a href="{% url 'register' %}">Register</a>
+            </li>
+            {% endif %}
+        </ul>
+
+    </div>
+</div>
+
+<div class="container">
+    {% block body %}
+    {% endblock %}
+</div>
+
+</body>
+</html>
