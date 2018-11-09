@@ -57,7 +57,6 @@ class TodoDetailView(DetailView):
     template_name = 'detailed_task.html'
     context_object_name = 'task'
 
-
 class TodoUpdateView(UpdateView):
     model = Todo
     pk_url_kwarg = 'todo_pk'
