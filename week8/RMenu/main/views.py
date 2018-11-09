@@ -1,7 +1,56 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Restaurant, Dish
 from django.contrib.auth.decorators import login_required
+from django.urls import reverse_lazy
 from .forms import RestaurantForm, DishForm
+from django.views.generic import (
+    ListView,
+    DeleteView,
+    CreateView,
+    UpdateView,
+    TemplateView,
+    DetailView
+)
+
+
+class HomeView(TemplateView):
+    template_name = 'home.html'
+
+
+class RestListView(ListView):
+    model = Restaurant
+    context_object_name = 'rests'
+    template_name = 'rests.html'
+
+
+class RestCreateView(CreateView):
+    model = Restaurant
+    fields = ['name', 'number', 'telephone', 'city']
+    template_name = 'add_dish.html'
+    success_url = reverse_lazy('rests')
+
+    def form_valid(self, form):
+        form.instance.user = self.request.user
+        return super().form_valid(form)
+
+
+class RestDeleteView(DeleteView):
+    model = Restaurant
+    template_name = 'restaurant_confirm_delete.html'
+    success_url = reverse_lazy('rests')
+
+
+class RestUpdateView(UpdateView):
+    model = Restaurant
+    fields = ['name', 'number', 'telephone', 'city']
+    template_name = 'add_dish.html'
+    success_url = reverse_lazy('rests')
+
+
+class RestDetailView(DetailView):
+    model = Restaurant
+    template_name = 'detailed_rest.html'
+    context_object_name = 'rest'
 
 
 def home(request):
@@ -69,4 +118,3 @@ def add_dish(request, id):
         form = DishForm
     context = {'form': form}
     return render(request, 'add_dish.html', context)
-

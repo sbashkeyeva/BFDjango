@@ -5,27 +5,27 @@
 <a href="{% url 'add_dish' rest.id%}" class="btn btn-primary">Add Dish</a>
 <br><br>
 <!--<ul>-->
-    <!--<li>-->
-        <!--Name: {{rest.name}}-->
-    <!--</li>-->
-    <!--<li>-->
-        <!--Number: {{rest.number}}-->
-    <!--</li>-->
-    <!--<li>-->
-        <!--Located: {{rest.city}}-->
-    <!--</li>-->
-    <!--<li>-->
-        <!--Telephone: {{rest.telephone}}-->
-    <!--</li>-->
+<!--<li>-->
+<!--Name: {{rest.name}}-->
+<!--</li>-->
+<!--<li>-->
+<!--Number: {{rest.number}}-->
+<!--</li>-->
+<!--<li>-->
+<!--Located: {{rest.city}}-->
+<!--</li>-->
+<!--<li>-->
+<!--Telephone: {{rest.telephone}}-->
+<!--</li>-->
 <!--</ul>-->
 <ul class="list-group">
-        {% for dish in dishes %}
-            <li class="list-group-item">
-                <h5>ID: {{ dish.id }}</h5>
-                <p>Title: {{ dish.name }}</p>
-            </li>
-        {% endfor %}
-    </ul>
+    {% for dish in dishes %}
+    <li class="list-group-item">
+        <h5>ID: {{ dish.id }}</h5>
+        <p>Title: {{ dish.name }}</p>
+    </li>
+    {% endfor %}
+</ul>
 
 <table class="table">
     <tr>
@@ -42,8 +42,11 @@
         <td>{{rest.number}}</td>
         <td>{{rest.telephone}}</td>
         <td>{{rest.city}}</td>
-        <td>{{rest.dishes.name}}</td>
+        {% for dish in rest.dishes.all %}
+        <td>{{dish.name}}</td>
+        {% endfor %}
     </tr>
+
     </tbody>
 </table>
 
