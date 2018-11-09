@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block body %}
+<h3>Completed Todo List</h3>
+<h3>{{tasks.count}}</h3>
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Created</th>
+        <th>Due on</th>
+        <th>Owner</th>
+        <th>Mark</th>
+    </tr>
+    {% for task in tasks %}
+    <tr>
+        <td>{{task.name}}</td>
+        <td>{{task.created}}</td>
+        <td>{{task.dueon}}</td>
+        <td>{{task.owner}}</td>
+        <td>
+            <button class="btn btn-info">
+                {% if task.mark %}
+                Done
+                {% else %}
+                Not Done
+                {% endif %}
+            </button>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
