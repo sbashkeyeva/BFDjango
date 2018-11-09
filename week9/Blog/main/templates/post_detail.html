@@ -6,18 +6,24 @@
         <p>Title: {{post.title}}</p>
         <p>Content: {{post.content}}</p>
         <p>Created by: {{post.created_by}}</p>
-    </li>
+
+    </li><br>
+    <a href="{% url 'add_comment' post.id %}" class="btn btn-primary">Add Comment</a>
 </ul>
-<br><br>
+<br>
 {% for comment in post.comments.all %}
 <ul class="list-group">
-    <li class="list-group-item">{{ comment.created_by }} {{ comment.date }}</li>
+    <li class="list-group-item">{{ comment.created_by }} {{ comment.date }}
+        <a href="{% url 'delete_comment' comment.id %}" class="btn btn-danger">Delete</a>
+        <a href="{% url 'update_comment' comment.id %}" class="btn btn-info">Update</a>
+    </li>
+
     <li class="list-group-item">{{ comment.content }}</li>
 </ul>
 
 {% empty %}
-    <p>No comments here:(</p>
+    <p>No comments here yet:(</p>
 {% endfor %}
-<a href="{% url 'add_comment' post.id %}" class="btn btn-primary">Add Comment</a>
+
 
 {% endblock %}
