@@ -46,16 +46,15 @@ class TodoDeleteView(DeleteView):
     template_name = 'todo_confirm_delete.html'
     success_url = reverse_lazy('todo_list')
 
-    # def get_queryset(self):
-    #   return Todo.objects.for_user(user=self.request.user)
-
-
+    def get_queryset(self):
+        return Todo.objects.for_user(user=self.request.user)
 
 
 class TodoDetailView(DetailView):
     model = Todo
     template_name = 'detailed_task.html'
     context_object_name = 'task'
+
 
 class TodoUpdateView(UpdateView):
     model = Todo

@@ -12,13 +12,13 @@ from django.views.generic import (
 )
 
 
-class PostListView(ListView):
+class PostListView(ListView, LoginRequiredMixin):
     model = Post
     template_name = 'post_list.html'
     context_object_name = 'posts'
 
 
-class PostCreateView(CreateView):
+class PostCreateView(CreateView, LoginRequiredMixin):
     model = Post
     template_name = 'post_form.html'
     fields = ['title', 'content']
@@ -29,27 +29,33 @@ class PostCreateView(CreateView):
         return super().form_valid(form)
 
 
-class PostDeleteView(DeleteView):
+class PostDeleteView(DeleteView, LoginRequiredMixin):
     model = Post
     success_url = reverse_lazy('post_list')
     template_name = 'post_confirm_delete.html'
 
+    def get_queryset(self):
+        return Post.objects.for_user(self.request.user)
 
-class PostUpdateView(UpdateView):
+
+class PostUpdateView(UpdateView, LoginRequiredMixin):
     model = Post
     success_url = reverse_lazy('post_list')
     fields = ['title', 'content']
     template_name = 'post_form.html'
 
+    def get_queryset(self):
+        return Post.objects.for_user(self.request.user)
 
-class CommentUpdateView(UpdateView):
+
+class CommentUpdateView(UpdateView, LoginRequiredMixin):
     model = Comment
     success_url = reverse_lazy('post_list')
     fields = ['content']
     template_name = 'comment_form.html'
 
 
-class CommentCreateView(CreateView):
+class CommentCreateView(CreateView, LoginRequiredMixin):
     model = Comment
     context_object_name = 'comments'
     fields = ['content']
@@ -63,13 +69,13 @@ class CommentCreateView(CreateView):
         return super().form_valid(form)
 
 
-class CommentDeleteView(DeleteView):
+class CommentDeleteView(DeleteView, LoginRequiredMixin):
     model = Comment
     template_name = 'comment_confirm_delete.html'
     success_url = reverse_lazy('post_list')
 
 
-class PostDetailView(DetailView):
+class PostDetailView(DetailView, LoginRequiredMixin):
     model = Post
     context_object_name = 'post'
     template_name = 'post_detail.html'
