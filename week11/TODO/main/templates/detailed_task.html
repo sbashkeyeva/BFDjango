@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block body %}
+<h3>Detailed Task Page</h3>
+<br><br>
+<ul class="list-group">
+    <li class="list-group-item">
+        <p>ID: {{task.id}}</p>
+        <p>Name: {{task.name}}</p>
+        <p>Created: {{task.created}}</p>
+        <p>Due on: {{task.dueon}}</p>
+        <p>Owner: {{task.owner}}</p>
+        <p>Mark:
+            {% if task.mark %}
+            Done
+            {% else %}
+            Not Done
+            {% endif %}
+        </p>
+    </li>
+
+</ul>
+{% endblock %}

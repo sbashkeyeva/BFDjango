@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block body %}
+<div>
+    <h1>Post List Page</h1>
+</div>
+<div class="container">
+
+    <a href="{% url 'add_post' %}" class="btn btn-primary">Add Post</a><br><br>
+</div>
+<div class="content container">
+    <div class="row">
+        <div class="col-md-8">
+            {% for post in posts %}
+            <div style="margin-bottom: 70px;">
+                <div class="date">
+                    Published: {{post.date}}
+                </div>
+                <h1 style=" font-family: 'Lobster';">
+                    <a style="color: #FCA205;" href="{% url 'detail_post' post.id %}">{{post.title}}</a>
+                </h1>
+                <p>{{post.content|linebreaksbr}}</p>
+
+                <a href="{% url 'delete_post' post.id %}" class="btn btn-danger">Delete</a>
+                <a href="{% url 'update_post' post.id %}"class="btn btn-info">Update</a>
+            </div>
+
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% endblock %}
